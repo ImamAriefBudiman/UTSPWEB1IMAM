@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Warung Mas Imam</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <h1>Warung Mas Imam</h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#food">Food</a></li>
+          <li><a href="#ulasan">Ulasan</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="recipe-cards" id="food">
+      <div class="recipe-card">
+        <img src="img/1.jpg" alt="Masakan 1" />
+        <h2>Ayam bakar Padang</h2>
+        <p>
+          Ayam diungkep bersama santan dan
+          bumbu kuning sampai meresap, barulah dibakar. Menjadikan ayam bakar
+          padang rasa bumbunya lebih terasa.
+        </p>
+        <a href="detail.html">Beli</a>
+      </div>
+      <div class="recipe-card">
+        <img src="img/2.jpeg" alt="Masakan 2" />
+        <h2>Gulai nangka</h2>
+        <p>
+          Nangka muda ternyata enak dimasak dengan beragam bumbu. Dibuat gudeg
+          semi basah
+        </p>
+        <a href="detail.html">Beli</a>
+      </div>
+      <div class="recipe-card">
+        <img src="img/3.jpg" alt="Masakan 2" />
+        <h2>Soto Bandung</h2>
+        <p>
+          masakan yang menyegarkan nih, Bunda. Ada  soto khas
+          Bandung.
+        </p>
+        <a href="detail.html">Beli</a>
+      </div>
+      <div class="recipe-card">
+        <img src="img/4.jpg" alt="Masakan 2" />
+        <h2>Brongkos daging sapi</h2>
+        <p>
+          brongkos daging sapi khas Jawa Tengah yang dipadukan dengan sayur
+          kangkung balacan bisa jadi pilihan masakan rumahan terbaik
+        </p>
+        <a href="detail.html">Beli</a>
+      </div>
+      <div class="recipe-card">
+        <img src="img/5.jpg" alt="Masakan 2" />
+        <h2>Gudeg</h2>
+        <p>
+          Hampir memasuki pertengahan minggu nih, Bunda. menu gudeg khas
+          Yogyakarta.
+        </p>
+        <br /><br />
+        <a href="detail.html">Beli</a>
+      </div>
+      <div class="recipe-card">
+        <img src="img/6.jpg" alt="Masakan 2" />
+        <h2>Pecak gurame</h2>
+        <p>
+          Ada pecak gurame dan sayur asam khas Betawi, nih. Intip cara
+          Masakanya, yuk.
+        </p>
+        <a href="detail.html">Beli</a>
+      </div>
+      <!-- Tambahkan lebih banyak card resep di sini -->
+    </div>
+
+    <div class="review-form" id="ulasan">
+      <h2>Beri Ulasan</h2>
+      <form>
+        <label for="name">Nama Anda:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="rating">Penilaian:</label>
+        <select id="rating" name="rating">
+          <option value="5">5 Bintang</option>
+          <option value="4">4 Bintang</option>
+          <option value="3">3 Bintang</option>
+          <option value="2">2 Bintang</option>
+          <option value="1">1 Bintang</option>
+        </select>
+
+        <label for="comment">Ulasan Anda:</label>
+        <textarea id="comment" name="comment" rows="4" required></textarea>
+
+        <button type="submit">Kirim Ulasan</button>
+      </form>
+    </div>
+
+    <div class="contact" id="contact">
+      <h1>Hubungi Kami</h1>
+      <div class="contact-info">
+        <p>
+          Jika Anda memiliki pertanyaan atau komentar, silakan hubungi kami di
+          alamat berikut:
+        </p>
+        <p>Email: ImamAriefBudiman@gmail.com</p>
+        <p>Telepon: +62-813-2655-6421</p>
+        <p>Alamat: Tegal</p>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="container">
+        <p>&copy; Imam Arief Budiman | 22041032</p>
+        <p>&copy; 2023 Resep Masakan. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
